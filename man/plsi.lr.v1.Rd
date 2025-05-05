@@ -15,7 +15,7 @@ plsi.lr.v1(
 )
 }
 \arguments{
-\item{data}{A data set}
+\item{data}{A data set including all needed variables}
 
 \item{Y.name}{Variable name for scalar outcome}
 
@@ -65,4 +65,8 @@ model_1 <- plsi.lr.v1(data = dat, Y.name = Y.name, X.name = X.name, Z.name = Z.n
 \author{
 Yuyan Wang
 }
-\keyword{plsi.lr}
+\keyword{index}
+\keyword{linear}
+\keyword{partial}
+\keyword{regression}
+\keyword{single}
